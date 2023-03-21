@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    {{>header}}
+
+<div class="container-fluid main_header">
+  <div class="row">
+    <div class="col-md-10 col-12 mx-auto">
+      <div class="row">
+        <!-- left side div -->
+       <div class="col-md-6  col-12 main_header_left">
+          <p>Welcome</p>
+         <h4 class="xyz">Get the latest <span class="text_clr"> Weather </span> of your city</h4>
+          <a href="/weather"><button>Check</button></a>
+        </div>
+        <!-- right side div -->
+        <div class="col-md-6 col-12 main_header_right">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUCHm37evR_hbKsTG5tRUb5XRPn8647ls8m3nf5BIEY2FZAxuYUzssIturdI9UgiOju34w5kFG8Ag&usqp=CAU&ec=48600112" class="w-100" alt="Error">
+            </div>
+            <div class="carousel-item">
+              <img src="https://nordicapis.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png" class="w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://nordicapis.com/wp-content/uploads/How-to-Build-an-API-Driven-Weather-App.png" class="w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" role="button" href="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" role="button" href="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+       </div>
+         
+      </div>
+            
+    </div>     
+  
+      
+    
+  </div>
+</div>
+<!-- footer section -->
+{{>footer}}
+</body>
+</html> 

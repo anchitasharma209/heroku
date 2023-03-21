@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>headerlinks}}
+<body>
+  {{>header}}
+
+<div class="container-fluid main_header">
+  <div class="row">
+    <div class="col-md-10 col-12 mx-auto">
+      <div class="row">
+        <!-- left side div -->
+        <div class="col-md-6 col-12 main_header_right align-items-center">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKM7zonM1G8iX2ylJgVsaFgoNiPYedfBxeBOIUK84PXQ&usqp=CAU&ec=48600112" alt="error" class="img-fluid">
+            </figure>
+            </div>
+            <!-- right -->
+        <div class="col-md-6  col-12 main_header_left align-items-centre">
+          <p>Welcome</p>
+          <h1>{{errorMsg}}</h1>
+         {{!-- <h4 class="xyz">Oops! page is not found</h4> --}}
+          <a href="/" ><button>Go Back</button></a>
+        </div>
+       
+       </div>
+         
+      </div>
+            
+    </div>     
+  
+      
+    
+  
+</div>
+<!-- footer section -->
+{{>footer}}
+</body>
+</html>
